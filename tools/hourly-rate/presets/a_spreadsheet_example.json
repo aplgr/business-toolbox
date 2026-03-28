@@ -1,7 +1,7 @@
 {
   "name": "Spreadsheet example (baseline)",
   "tax": {
-  "modelId": "de_income_tax_2025",
+    "modelId": "de_income_tax_2025",
     "params": {}
   },
   "work": {
@@ -186,7 +186,7 @@
     },
     {
       "category": "Marketing",
-      "label": "Freelancer databases",
+      "label": "Business databases",
       "monthly": 20
     },
     {
