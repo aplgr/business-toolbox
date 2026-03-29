@@ -79,14 +79,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(16, 20, 24, .18);
+  background-color: rgba(24, 43, 61, .18);
   border: 1px solid var(--pill-border);
   transition: .2s;
   border-radius: 999px;
 }
 
 [data-theme="dark"] .slider {
-  background-color: rgba(255, 255, 255, .10);
+  background-color: rgba(238, 244, 250, .10);
 }
 
 .slider:before {
@@ -103,8 +103,8 @@
 }
 
 .switch input:checked+.slider {
-  background-color: rgba(232, 117, 50, .30);
-  border-color: rgba(232, 117, 50, .36);
+  background-color: rgba(51, 103, 145, .30);
+  border-color: rgba(51, 103, 145, .38);
 }
 
 .switch input:checked+.slider:before {

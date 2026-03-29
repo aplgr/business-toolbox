@@ -16,10 +16,10 @@ a {
 }
 
 .logo {
-  border: 1px solid rgba(232, 117, 50, .26);
-  background: radial-gradient(circle at 32% 30%, rgba(232, 117, 50, .95), rgba(232, 117, 50, .45) 45%, transparent 55%),
+  border: 1px solid rgba(51, 103, 145, .26);
+  background: radial-gradient(circle at 32% 30%, rgba(51, 103, 145, .95), rgba(51, 103, 145, .45) 45%, transparent 55%),
     radial-gradient(circle at 62% 65%, rgba(255, 255, 255, .35), transparent 60%);
-  box-shadow: 0 12px 26px rgba(232, 117, 50, .18);
+  box-shadow: 0 12px 26px rgba(51, 103, 145, .18);
 }
 
 .grid {
@@ -41,7 +41,7 @@ a {
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow);
-  border-color: rgba(232, 117, 50, .32);
+  border-color: rgba(51, 103, 145, .30);
 }
 
 .meta {
@@ -103,7 +103,7 @@ a {
 .footlink {
   opacity: .9;
   text-decoration: underline;
-  text-decoration-color: rgba(232, 117, 50, .55);
+  text-decoration-color: rgba(51, 103, 145, .55);
   text-underline-offset: 3px;
 }
 

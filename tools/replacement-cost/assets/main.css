@@ -2,29 +2,29 @@
     --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     --heading-font: "Questrial", sans-serif;
 
-    --accent-color: #e87532;
+    --accent-color: #336791;
 
     /* Light theme */
-    --background-color: #f7f8fa;
+    --background-color: #f7fafc;
     --surface-color: #ffffff;
-    --surface-color-2: #f1f3f6;
-    --default-color: #101418;
-    --heading-color: #0a0f14;
-    --muted-color: rgba(16, 20, 24, .70);
-    --border-color: rgba(16, 20, 24, .12);
+    --surface-color-2: #f1f6fb;
+    --default-color: #182b3d;
+    --heading-color: #1f4f82;
+    --muted-color: rgba(24, 43, 61, .70);
+    --border-color: rgba(24, 43, 61, .12);
 
-    --label-color: rgba(16, 20, 24, .88);
-    --label-strong: rgba(16, 20, 24, .92);
-    --foot-color: rgba(16, 20, 24, .55);
+    --label-color: rgba(24, 43, 61, .88);
+    --label-strong: rgba(24, 43, 61, .92);
+    --foot-color: rgba(24, 43, 61, .55);
 
-    --shadow: 0 16px 45px rgba(0, 0, 0, .12);
+    --shadow: 0 16px 45px rgba(14, 28, 44, .12);
     --radius: 18px;
     --radius2: 14px;
     --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     /* Layout tokens */
-    --body-glow-1: rgba(232, 117, 50, .18);
-    --body-glow-2: rgba(232, 117, 50, .10);
+    --body-glow-1: rgba(51, 103, 145, .16);
+    --body-glow-2: rgba(31, 79, 130, .08);
     --body-top: #ffffff;
     --body-bottom: var(--background-color);
 
@@ -32,63 +32,63 @@
     --pill-bg: rgba(255, 255, 255, .05);
     --pill-border: var(--border-color);
 
-    --card-bg: rgba(255, 255, 255, .82);
+    --card-bg: rgba(255, 255, 255, .84);
     --card-bg-solid: #ffffff;
 
-    --head-border: rgba(16, 20, 24, .10);
-    --head-bg-1: rgba(232, 117, 50, .10);
-    --head-bg-2: rgba(255, 255, 255, .65);
+    --head-border: rgba(24, 43, 61, .10);
+    --head-bg-1: rgba(51, 103, 145, .10);
+    --head-bg-2: rgba(255, 255, 255, .72);
 
-    --input-border: rgba(16, 20, 24, .16);
-    --input-bg: rgba(255, 255, 255, .88);
+    --input-border: rgba(24, 43, 61, .16);
+    --input-bg: rgba(255, 255, 255, .90);
     --input-bg-focus: rgba(255, 255, 255, .98);
-    --input-border-focus: rgba(232, 117, 50, .55);
+    --input-border-focus: rgba(51, 103, 145, .50);
 
-    --btn-border: rgba(16, 20, 24, .14);
-    --btn-bg: rgba(16, 20, 24, .04);
-    --btn-fg: rgba(16, 20, 24, .90);
-    --btn-bg-hover: rgba(16, 20, 24, .07);
-    --btn-border-hover: rgba(16, 20, 24, .20);
+    --btn-border: rgba(24, 43, 61, .14);
+    --btn-bg: rgba(24, 43, 61, .04);
+    --btn-fg: rgba(24, 43, 61, .90);
+    --btn-bg-hover: rgba(24, 43, 61, .07);
+    --btn-border-hover: rgba(24, 43, 61, .20);
 
-    --btn-accent-border: rgba(232, 117, 50, .55);
-    --btn-accent-bg-1: rgba(232, 117, 50, .22);
-    --btn-accent-bg-2: rgba(232, 117, 50, .10);
-    --btn-accent-bg-1-hover: rgba(232, 117, 50, .28);
-    --btn-accent-bg-2-hover: rgba(232, 117, 50, .12);
-    --btn-accent-border-hover: rgba(232, 117, 50, .65);
+    --btn-accent-border: rgba(51, 103, 145, .48);
+    --btn-accent-bg-1: rgba(51, 103, 145, .18);
+    --btn-accent-bg-2: rgba(51, 103, 145, .08);
+    --btn-accent-bg-1-hover: rgba(51, 103, 145, .24);
+    --btn-accent-bg-2-hover: rgba(51, 103, 145, .10);
+    --btn-accent-border-hover: rgba(51, 103, 145, .60);
 
-    --badge-fg: rgba(16, 20, 24, .70);
-    --badge-bg: rgba(16, 20, 24, .04);
-    --badge-border: rgba(16, 20, 24, .12);
+    --badge-fg: rgba(24, 43, 61, .70);
+    --badge-bg: rgba(24, 43, 61, .04);
+    --badge-border: rgba(24, 43, 61, .12);
 
-    --sep-bg: rgba(16, 20, 24, .10);
+    --sep-bg: rgba(24, 43, 61, .10);
 
-    --tip-border: rgba(16, 20, 24, .14);
-    --tip-bg: rgba(16, 20, 24, .05);
-    --tip-fg: rgba(16, 20, 24, .72);
+    --tip-border: rgba(24, 43, 61, .14);
+    --tip-bg: rgba(24, 43, 61, .05);
+    --tip-fg: rgba(24, 43, 61, .72);
 
-    --kpi-bg: rgba(16, 20, 24, .03);
-    --kpi-border: rgba(16, 20, 24, .10);
+    --kpi-bg: rgba(24, 43, 61, .03);
+    --kpi-border: rgba(24, 43, 61, .10);
 
-    --month-bg: rgba(16, 20, 24, .03);
-    --month-border: rgba(16, 20, 24, .10);
+    --month-bg: rgba(24, 43, 61, .03);
+    --month-border: rgba(24, 43, 61, .10);
 
-    --hero-border: rgba(232, 117, 50, .35);
-    --hero-glow: rgba(232, 117, 50, .18);
-    --hero-bg-1: rgba(255, 255, 255, .85);
-    --hero-bg-2: rgba(16, 20, 24, .02);
+    --hero-border: rgba(51, 103, 145, .28);
+    --hero-glow: rgba(51, 103, 145, .16);
+    --hero-bg-1: rgba(255, 255, 255, .86);
+    --hero-bg-2: rgba(24, 43, 61, .02);
 
-    --impact-bg: rgba(255, 255, 255, .70);
-    --impact-border: rgba(16, 20, 24, .10);
-    --impact-key: rgba(16, 20, 24, .65);
-    --impact-val: rgba(16, 20, 24, .92);
+    --impact-bg: rgba(255, 255, 255, .72);
+    --impact-border: rgba(24, 43, 61, .10);
+    --impact-key: rgba(24, 43, 61, .65);
+    --impact-val: rgba(24, 43, 61, .92);
 
-    --switch-border: rgba(16, 20, 24, .14);
-    --switch-bg: rgba(16, 20, 24, .06);
-    --switch-knob: rgba(16, 20, 24, .78);
-    --switch-checked-bg: rgba(232, 117, 50, .22);
-    --switch-checked-border: rgba(232, 117, 50, .45);
-    --switch-knob-checked: rgba(16, 20, 24, .92);
+    --switch-border: rgba(24, 43, 61, .14);
+    --switch-bg: rgba(24, 43, 61, .06);
+    --switch-knob: rgba(24, 43, 61, .78);
+    --switch-checked-bg: rgba(51, 103, 145, .22);
+    --switch-checked-border: rgba(51, 103, 145, .40);
+    --switch-knob-checked: rgba(24, 43, 61, .92);
 
     /* Alias variables to match toolbox landing / shared components */
     --accent: var(--accent-color);
@@ -102,81 +102,80 @@
 }
 
 html[data-theme="dark"] {
-    --background-color: #060606;
-    --surface-color: #252525;
-    --surface-color-2: #1f1f1f;
-    --default-color: #ffffff;
+    --background-color: #0f1c2c;
+    --surface-color: #162437;
+    --surface-color-2: #132133;
+    --default-color: #eef4fa;
     --heading-color: #ffffff;
-    --muted-color: rgba(255, 255, 255, .72);
-    --border-color: rgba(255, 255, 255, .12);
+    --muted-color: rgba(238, 244, 250, .72);
+    --border-color: rgba(238, 244, 250, .12);
 
-    --label-color: rgba(255, 255, 255, .88);
-    --label-strong: rgba(255, 255, 255, .92);
-    --foot-color: rgba(255, 255, 255, .55);
+    --label-color: rgba(238, 244, 250, .88);
+    --label-strong: rgba(238, 244, 250, .92);
+    --foot-color: rgba(238, 244, 250, .55);
 
-    --shadow: 0 16px 45px rgba(0, 0, 0, .55);
+    --shadow: 0 16px 45px rgba(0, 0, 0, .38);
 
-    --body-glow-1: rgba(232, 117, 50, .20);
-    --body-glow-2: rgba(232, 117, 50, .12);
-    --body-top: #050505;
-    --body-bottom: var(--background-color);
+    --body-glow-1: rgba(51, 103, 145, .22);
+    --body-glow-2: rgba(31, 79, 130, .14);
+    --body-top: #0f1c2c;
+    --body-bottom: #0b1726;
 
     --pill-fg: rgba(255, 255, 255, .85);
     --pill-bg: rgba(255, 255, 255, .05);
     --pill-border: var(--border-color);
 
-    --card-bg: rgba(37, 37, 37, .80);
-    --card-bg-solid: #252525;
+    --card-bg: rgba(22, 36, 55, .88);
+    --card-bg-solid: #162437;
 
-    --head-border: rgba(255, 255, 255, .08);
-    --head-bg-1: rgba(255, 255, 255, .06);
+    --head-border: rgba(238, 244, 250, .08);
+    --head-bg-1: rgba(255, 255, 255, .05);
     --head-bg-2: rgba(255, 255, 255, .02);
 
-    --input-border: rgba(255, 255, 255, .14);
-    --input-bg: rgba(6, 6, 6, .55);
-    --input-bg-focus: rgba(6, 6, 6, .70);
-    --input-border-focus: rgba(232, 117, 50, .65);
+    --input-border: rgba(238, 244, 250, .14);
+    --input-bg: rgba(9, 17, 29, .58);
+    --input-bg-focus: rgba(9, 17, 29, .74);
+    --input-border-focus: rgba(95, 146, 188, .62);
 
-    --btn-border: rgba(255, 255, 255, .14);
-    --btn-bg: rgba(255, 255, 255, .06);
-    --btn-fg: rgba(255, 255, 255, .92);
-    --btn-bg-hover: rgba(255, 255, 255, .10);
-    --btn-border-hover: rgba(255, 255, 255, .20);
+    --btn-border: rgba(238, 244, 250, .14);
+    --btn-bg: rgba(238, 244, 250, .06);
+    --btn-fg: rgba(238, 244, 250, .92);
+    --btn-bg-hover: rgba(238, 244, 250, .10);
+    --btn-border-hover: rgba(238, 244, 250, .20);
 
-    --badge-fg: rgba(255, 255, 255, .78);
-    --badge-bg: rgba(255, 255, 255, .05);
-    --badge-border: rgba(255, 255, 255, .12);
+    --badge-fg: rgba(238, 244, 250, .78);
+    --badge-bg: rgba(238, 244, 250, .05);
+    --badge-border: rgba(238, 244, 250, .12);
 
-    --sep-bg: rgba(255, 255, 255, .10);
+    --sep-bg: rgba(238, 244, 250, .10);
 
-    --tip-border: rgba(255, 255, 255, .14);
-    --tip-bg: rgba(255, 255, 255, .06);
-    --tip-fg: rgba(255, 255, 255, .80);
+    --tip-border: rgba(238, 244, 250, .14);
+    --tip-bg: rgba(238, 244, 250, .06);
+    --tip-fg: rgba(238, 244, 250, .80);
 
-    --kpi-bg: rgba(255, 255, 255, .05);
-    --kpi-border: rgba(255, 255, 255, .10);
+    --kpi-bg: rgba(238, 244, 250, .05);
+    --kpi-border: rgba(238, 244, 250, .10);
 
-    --month-bg: rgba(0, 0, 0, .20);
-    --month-border: rgba(255, 255, 255, .10);
+    --month-bg: rgba(0, 0, 0, .18);
+    --month-border: rgba(238, 244, 250, .10);
 
-    --hero-border: rgba(232, 117, 50, .30);
-    --hero-glow: rgba(232, 117, 50, .22);
-    --hero-bg-1: rgba(255, 255, 255, .06);
-    --hero-bg-2: rgba(255, 255, 255, .03);
+    --hero-border: rgba(95, 146, 188, .26);
+    --hero-glow: rgba(51, 103, 145, .22);
+    --hero-bg-1: rgba(255, 255, 255, .05);
+    --hero-bg-2: rgba(255, 255, 255, .02);
 
-    --impact-bg: rgba(255, 255, 255, .04);
-    --impact-border: rgba(255, 255, 255, .10);
+    --impact-bg: rgba(238, 244, 250, .04);
+    --impact-border: rgba(238, 244, 250, .10);
     --impact-key: var(--muted-color);
-    --impact-val: #fff;
+    --impact-val: #ffffff;
 
-    --switch-border: rgba(255, 255, 255, .14);
-    --switch-bg: rgba(255, 255, 255, .06);
-    --switch-knob: rgba(255, 255, 255, .85);
-    --switch-checked-bg: rgba(232, 117, 50, .22);
-    --switch-checked-border: rgba(232, 117, 50, .45);
-    --switch-knob-checked: rgba(255, 255, 255, .95);
+    --switch-border: rgba(238, 244, 250, .14);
+    --switch-bg: rgba(238, 244, 250, .06);
+    --switch-knob: rgba(238, 244, 250, .85);
+    --switch-checked-bg: rgba(51, 103, 145, .24);
+    --switch-checked-border: rgba(95, 146, 188, .42);
+    --switch-knob-checked: rgba(238, 244, 250, .95);
 }
-
 
 
 
