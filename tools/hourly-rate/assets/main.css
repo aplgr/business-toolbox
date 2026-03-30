@@ -360,7 +360,7 @@ summary {
     margin-top: 10px;
 }
 
-/* Share / restore (match Retainer Tier Evaluator / Replacement Cost Calculator look) */
+/* Share / restore (match Retainer Tier Evaluator / Freelancer-ROI-Check look) */
 :root {
     --share-btn-bg: rgba(24, 43, 61, .04);
     --share-btn-bg-hover: rgba(24, 43, 61, .08);

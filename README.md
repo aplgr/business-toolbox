@@ -17,8 +17,8 @@ A small, static site that bundles a few practical calculators I use in real-worl
 - **Retainer Tier Evaluator** (`tools/retainer-tier/`)
   - Compares retainer tiers by MRR/ARR, effective rate, reserved capacity, and contract knobs (discount, overage, notice, term).
 
-- **Replacement Cost Calculator** (`tools/replacement-cost/`)
-  - Estimates the replacement premium (Δ vs baseline) based on ramp-up productivity, mentoring overhead, procurement hours, and optional cost-of-delay.
+- **Freelancer-ROI-Check** (`tools/freelancer-roi-check/`)
+  - Checks the ROI of a replacement decision based on ramp-up productivity, mentoring overhead, procurement hours, and optional cost-of-delay.
   - Includes JSON presets + import/export.
 
 ## Run locally

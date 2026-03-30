@@ -1,4 +1,4 @@
-function replacementApp() {
+function freelancerRoiCheckApp() {
     return {
         loading: true,
         presets: [],
@@ -136,7 +136,7 @@ function replacementApp() {
                 const url = URL.createObjectURL(blob);
                 const a = document.createElement("a");
                 a.href = url;
-                a.download = "replacement-cost-config.json";
+                a.download = "freelancer-roi-check-config.json";
                 document.body.appendChild(a);
                 a.click();
                 a.remove();

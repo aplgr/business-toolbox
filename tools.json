@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T17:42:27Z",
+  "generatedAt": "2026-03-30T00:00:00Z",
   "tools": [
     {
       "slug": "hourly-rate",
@@ -26,15 +26,15 @@
       "order": 2
     },
     {
-      "slug": "replacement-cost",
-      "title": "Replacement Cost Calculator",
-      "description": "Estimate the real cost of replacing a contributor: ramp-up productivity loss, mentoring overhead, and delivery risk.",
+      "slug": "freelancer-roi-check",
+      "title": "Freelancer-ROI-Check",
+      "description": "Check the ROI of replacing a contributor: model ramp-up productivity loss, mentoring overhead, and delivery risk.",
       "tags": [
         "Negotiation",
         "Ramp-up",
         "Cost of delay"
       ],
-      "href": "tools/replacement-cost/",
+      "href": "tools/freelancer-roi-check/",
       "order": 3
     }
   ]
